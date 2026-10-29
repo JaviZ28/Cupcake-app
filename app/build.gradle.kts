@@ -84,4 +84,9 @@ dependencies {
 
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     debugImplementation("androidx.compose.ui:ui-tooling")
+    
+    // Dependencias para pruebas instrumentadas en Jetpack Compose y Navegación
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.10.01"))
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4-android:1.5.4")
+    androidTestImplementation("androidx.navigation:navigation-testing:2.7.4")
 }
